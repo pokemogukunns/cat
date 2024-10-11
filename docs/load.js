@@ -64,7 +64,7 @@ history.replaceState('title', '', location.pathname);
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
       ctx.globalAlpha = 0.5;
-      ctx.fillText('加载中...', 0, 40);
+      ctx.fillText('読み込み中...', 0, 40);
 
       var t = Math.PI * 2 * 0.9;
       var step = t / 20;
