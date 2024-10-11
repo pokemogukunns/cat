@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=480,user-scalable=no" />
   <meta name="screen-orientation" content="portrait">
   <meta name="x5-orientation" content="portrait">
-  <title>超级猫里奥</title>
+  <title>スーパーキャットマリオ</title>
   <link rel="stylesheet" href="catmario.css"/>
   <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
 </head>
@@ -16,24 +16,24 @@
     <div id="title" style="display:none">
       <header><div><img class="titleimg" src="res/logo.png" /></div></header>
       <content>
-        <button class="btn btn-danger start-btn" id="startgame">开始游戏</button>
-        <button class="btn btn-danger start-btn" id="settings">游戏设置</button>
+        <button class="btn btn-danger start-btn" id="startgame">ゲームを始める</button>
+        <button class="btn btn-danger start-btn" id="settings">ゲーム設定</button>
       </content>
-      <footer><div><a href="http://tiwb.com">游戏版权归原作者所有</a></div></footer>
+      <footer><div><a href="http://pokemogukunns.github.io">suikaゲーム</a></div></footer>
     </div>
 
     <div id="error" class="window" style="display:none">
       <div class="mask"></div>
-      <header>错误</header>
+      <header>間違い</header>
       <content id="error_text"></content>
       <footer>
-        <button class="btn btn-danger start-btn" id="error_close">确定</button>
+        <button class="btn btn-danger start-btn" id="error_close">確定</button>
       </footer>
     </div>
 
     <div id="settings_window" class="window" style="display:none">
       <div class="mask"></div>
-      <header>设置 <span id ="settings_back" class="close"></span></header>
+      <header>設置 <span id ="settings_back" class="close"></span></header>
       <content>
         <div>
           <div class="checkboxFour">
@@ -41,7 +41,7 @@
             <label for="settings_se"></label>
           </div>
           <div class="checkboxFourFront">
-            <label for="settings_se">播放音效</label>
+            <label for="settings_se">効果音を再生する</label>
           </div>
         </div>
         <div>
@@ -50,7 +50,7 @@
             <label for="settings_bgm"></label>
           </div>
           <div class="checkboxFourFront">
-            <label for="settings_bgm">播放音乐</label>
+            <label for="settings_bgm">音楽を流す</label>
           </div>
         </div>
         <div>
@@ -59,11 +59,11 @@
             <label for="settings_onehand"></label>
           </div>
           <div class="checkboxFourFront">
-            <label for="settings_onehand">单手模式</label>
+            <label for="settings_onehand">片手モード</label>
           </div>
         </div>
         <div>
-          <button class="btn btn-cancel setting-btn" id="settings_cleardata" >清除游戏数据</button>
+          <button class="btn btn-cancel setting-btn" id="settings_cleardata" >ゲームデータを消去する</button>
         </div>
       </content>
     </div>
