@@ -130,7 +130,7 @@ $('#settings_onehand').change(function() {
 });
 
 $('#settings_cleardata').click(function() {
-  if (confirm('游戏进度将被删除，确定吗？')) {
+  if (confirm('ゲームの進行状況は削除されますが、よろしいですか？')) {
     Module['_dlm_reset']();
   }
 });
@@ -140,7 +140,7 @@ $('#error_close').click(function() {
     location.reload();
 });
 
-// 不允许屏幕移动
+// 画面移動は許可しない
 $(function() {
     var supportsPassiveOption = false;
     try {
